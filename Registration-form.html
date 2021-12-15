@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register User</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="./Register/register.js"></script>
+
+</head>
+<body>
+    
+<div class="hero">
+<div class="form-box">
+
+    <div class="button-box">
+        <div id="btn"> </div>
+        <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+        <button type="button" class="toggle-btn" onclick="register()">Register</button>
+    </div>
+    <div class="social-icons">
+
+        <img src="./login-reg-img/fb.png" alt="Facebook">
+        <img src="./login-reg-img/gp.png">
+        <img src="./login-reg-img/tw.png">
+    </div>
+    <form id="login" class="input-group">
+
+        <input  type="text" class="input-field" placeholder="User Id"  required>
+        <input  type="text" class="input-field" placeholder="Enter Password"  required>
+        
+        <input  type="checkbox" class="check-box"><span>Remember Password</span>
+        <button type="submit" id="registerBtn" class="submit-btn" >Log In</button>
+    </form>
+
+<!-- Register -->
+    <form id="register" class="input-group">
+
+        <input  type="text" id="UserName" class="input-field" placeholder="UserName"  required>
+        <input  type="email" id="emailId" class="input-field" placeholder="Email Id"  required>
+        <input  type="text" id="Password" class="input-field" placeholder="Enter Password"  required>
+        <input  type="text" id="Roll" class="input-field" placeholder="Roll Admin"  required>
+        <input  type="checkbox" class="check-box" required><span>I agree to the term & conditions</span>
+        <button type="submit" id="registerBtn"  class="submit-btn"  >Register</button>
+    </form>
+</div>
+
+</div>
+
+
+</body>
+</html>
